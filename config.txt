@@ -1,0 +1,2 @@
+iter=70000
+ants_count=100
