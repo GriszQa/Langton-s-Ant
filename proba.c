@@ -1,5 +1,4 @@
 #include "turtle.h"
-#include "turtle.c"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -17,7 +16,7 @@ struct ant
     int rgb_r;
     int rgb_g;
     int rgb_b;
-    bool moving; // 1 - mrowka sie porusza, 0 - mrowka stoi
+    int moving; // 1 - mrowka sie porusza, 0 - mrowka stoi
 };
 
 int area[WIDTH][HEIGHT] = {0}; // definiowana jest tablica 2-wymiarowa, przechowująca stan zamalowania pikseli na planszy

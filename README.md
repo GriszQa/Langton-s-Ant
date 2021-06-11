@@ -43,11 +43,10 @@ ants_count = 100
 
 <h3>#Lista użytych dodatkowych bibliotek</h3>
 - turtle.h<br>
-- turtle.c
 
 
 <h3>#Opis kompilacji programu</h3>
 
 Kompilacja programu przy użyciu komendy
 
->gcc proba.c -o proba
+>gcc proba.c turtle.c
